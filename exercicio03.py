@@ -1,6 +1,8 @@
+# entrada
 numero1 = float(input('Digite o primeiro número: '))
 numero2 = float(input('Digite o segundo número: '))
 
+# processamento e saída
 calculo = numero1 + numero2
 
 if (calculo > 10):

@@ -1,6 +1,7 @@
-#16. Entrar com um número de 1 a 12 e exibir o mês correspondente.
+# entrada
 mes = int(input("Digite um número de 1 a 12: "))
 
+# processamento e saída
 if mes == 1:
     print("Janeiro")
 

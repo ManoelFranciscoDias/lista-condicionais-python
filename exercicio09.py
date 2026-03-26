@@ -1,6 +1,8 @@
+# entrada
 nota01 = float(input('Digite a primeira nota: '))
 nota02 = float(input('Digite a segunda nota: '))
 
+# processamento e saída
 media = (nota01 + nota02) / 2
 
 if media >= 6:

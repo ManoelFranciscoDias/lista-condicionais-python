@@ -1,5 +1,7 @@
+# entrada
 ano_nascimento = int(input('Digite o seu ano de nascimento: '))
 
+# processamento e saída
 if ano_nascimento > 2026:
     print('Sua idade é invalida')
 

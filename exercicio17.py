@@ -1,5 +1,7 @@
+# entrada
 letra = input("Digite uma letra: ").lower()
 
+# processamento e saída
 if letra in ['a', 'e', 'i', 'o', 'u']:
     print("A letra é uma vogal.")
 

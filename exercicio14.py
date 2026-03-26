@@ -1,5 +1,7 @@
+# entrada
 estado = input('Digite a sigla do seu estado: ')
 
+# processamento e saída
 if estado == 'RJ':
     print('Você é Carioca')
 

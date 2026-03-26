@@ -1,5 +1,7 @@
+# entrada
 idade = int(input('Digite a sua idade: '))
 
+# processamento e saída
 if idade < 18:
     print('Você é menor de idade')
 
