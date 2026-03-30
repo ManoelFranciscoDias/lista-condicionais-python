@@ -1,5 +1,7 @@
+#entrada
 salario = float(input('Digite o seu salário atual: '))
 
+#processamento e saída
 if (salario <= 400):
     print(f'Você recebeu um indice de aumento de 15%, seu salario agora é R${salario * 1.15}')
 
