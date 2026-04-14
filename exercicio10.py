@@ -6,7 +6,7 @@ nota02 = int(input('Digite a segunda nota: '))
 media = (nota01 + nota02) / 2
 
 if media >= 7:
-    print(f'Aprovado')
+    print(f'Aprovado!')
 
 else:
     exame = float(input('Digite a nota do exame: '))
@@ -14,6 +14,6 @@ else:
     media_final = (media + exame) / 2
 
     if media_final >= 5:
-        print(f'Aprovado')
+        print(f'Aprovado!')
     else:
-        print(f'Reprovado')
+        print(f'Reprovado!')

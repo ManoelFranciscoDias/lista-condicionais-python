@@ -1,8 +1,10 @@
+#entrada
 n1 = int(input("Digite o primeiro valor inteiro: "))
 n2 = int(input("Digite o segundo valor inteiro: "))
 
 resto = n1 % n2
 
+#processamento e saída
 if resto == 1:
     resultado = n1 + n2 + resto
     print(f"Soma + resto: {resultado}")

@@ -10,7 +10,7 @@ print("4 - Divisão")
 
 operacao = int(input("Digite o código da operação: "))
 
-# entrada e saída
+#processamento e saída
 if operacao == 1:
     resultado = valor1 + valor2
     print("Resultado:", resultado)

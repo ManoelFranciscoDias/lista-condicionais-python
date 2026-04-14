@@ -1,3 +1,4 @@
+#entrada
 print("=== CALCULADORA ===")
 print("0 - Soma")
 print("1 - Subtração")
@@ -7,6 +8,7 @@ print("4 - Média")
 
 opcao = int(input("Escolha uma opção (0 a 4): "))
 
+#processamento e saída
 if opcao >= 0 and opcao <= 4:
     n1 = float(input("Digite o primeiro número: ").replace(",", "."))
     n2 = float(input("Digite o segundo número: ").replace(",", "."))

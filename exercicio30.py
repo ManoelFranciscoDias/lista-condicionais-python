@@ -1,5 +1,7 @@
+#entrada
 temperatura = int(input('Qual a temperatura do aluminio em Celsius (°C): '))
 
+#processamento e saída
 if temperatura <= 1000:
     if temperatura <= 500:
         print(f'Temperatura Invalida')

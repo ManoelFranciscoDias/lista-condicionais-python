@@ -1,8 +1,10 @@
+#entrada
 homem01 = int(input('Digite a idade do primeiro homem: '))
 homem02 = int(input('Digite a idade do segundo homem: '))
 mulher01 = int(input('Digite a idade da primeira mulher: '))
 mulher02 = int(input('Digite a idade da segunda mulher: '))
 
+#processamento e saída
 if homem01 > homem02 and mulher01 > mulher02:
     soma = homem01 + mulher02
     produto = homem02 * mulher01

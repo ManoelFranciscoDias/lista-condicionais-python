@@ -1,5 +1,7 @@
+#entrada
 numero = int(input("Digite um número de 4 dígitos: "))
 
+#processamento e saída
 if numero >= 1000 and numero <= 9999:
     parte1 = numero // 100
     parte2 = numero % 100 
